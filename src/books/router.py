@@ -1,5 +1,7 @@
-from fastapi import APIRouter, Request
 from random import randint
+
+from fastapi import APIRouter
+
 from src.schema import AddBookRequestSchema
 from src.validate import validate
 
@@ -8,6 +10,7 @@ books = [
     {"unique_id": 1, "title": "The Great Gatsby", "author": "Some Author"},
     {"unique_id": 2, "title": "The DaVinci Code", "author": "Some Author"},
 ]
+
 
 def _generate_unique_id():
     return randint(1, 30)

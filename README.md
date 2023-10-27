@@ -2,9 +2,9 @@
 
 ## Description
 
-This a pre-built FastAPI Sample App that should be used as base for your Performance Testing project.
+Our customers have a lot of books, and they need to reliably keep track of them using our API. Our engineers built this book-tracking app and submitted to the QA lead. The QA lead will need to test the app, and report the findings back to both engineering and business affairs.
 
-It is a simple API for `books` and it has the following endpoints:
+We would like you to create a test suite for this API that contains the following endpoints:
 
 - `GET /books`: Returns a list of books
 - `GET /books/{id}`: Returns a book by id
@@ -14,14 +14,14 @@ It is a simple API for `books` and it has the following endpoints:
 
 ## Prerequisites
 
-You'll need `python` and `Docker` to run this project.
+You'll need `python` and `Docker` installed to run this project.
 
 ## Usage
 
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/Harbour-Enterprises/SampleProject.git
+git clone https://github.com/Harbour-Enterprises/QATakeHomeProject.git
 ```
 
 2. Run it locally (_To make it easier, we've added a Makefile with all the commands you'll need to run this project._)
@@ -32,26 +32,19 @@ make
 
 ## Goal
 
-The objective of this project is to evaluate your performance testing skills. You'll need to create a performance test suite for this API.
+The objective of this project is to evaluate your testing skills. You'll need to create a test suite for this API.
 
-Should be included in the test suite:
+`Some tools we recommend (but feel free to use any other tool you want):`
 
-- A test to validate the response time of each endpoint
-- A test to validate the throughput of each endpoint
-- A test to validate the error rate of each endpoint
-
-Please also consider the following configuration for the test:
-
-- 100 concurrent users (spawn rate of 10 users per second)
-- 1 minute test duration
-
-_We recommend using [Locust](https://github.com/locustio/locust) (an open source load testing tool) but not required._
+- [Locust](https://github.com/locustio/locust) (performance testing tool)
+- [Postman](https://www.postman.com/) (an API testing tool)
+- [pytest](https://docs.pytest.org/en/6.2.x/) (testing framework for unit and functional tests)
 
 ## Deliverables
 
-1. A performance test suite for this API
+1. A test suite for this API
 
-   - Locust Test Scripts: Well-documented Locust test scripts that define test scenarios and user behavior.
+   - Test Scripts: Well-documented test scripts that define test scenarios and user behavior.
    - Test Execution Results: Test execution logs and reports, including performance metrics and analysis.
    - Recommendations: Performance optimization recommendations based on test results and analysis.
 
@@ -59,7 +52,7 @@ _We recommend using [Locust](https://github.com/locustio/locust) (an open source
 
 ## Bonus (optional)
 
-- Include different User credentials (one with access to all endpoints and one with access only to the `GET /books` endpoint)
+- Performance tests for this API
 
 ## Rights / Use Requirements
 
