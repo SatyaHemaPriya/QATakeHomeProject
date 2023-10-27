@@ -45,8 +45,8 @@ The objective of this project is to evaluate your testing skills. You'll need to
 1. A test suite for this API
 
    - Test Scripts: Well-documented test scripts that define test scenarios and user behavior.
-   - Test Execution Results: Test execution logs and reports, including performance metrics and analysis.
-   - Recommendations: Performance optimization recommendations based on test results and analysis.
+   - Test Execution Results: Test execution logs and reports.
+   - Recommendations: Optimization recommendations based on test results and analysis.
 
 2. A README.md file with instructions on how to run the tests and a brief explanation of the test suite
 
