@@ -49,12 +49,25 @@ _We recommend using [Locust](https://github.com/locustio/locust) (an open source
 
 ## Deliverables
 
-- A performance test suite for this API
-- A README.md file with instructions on how to run the tests and a brief explanation of the test suite
+1. A performance test suite for this API
+
+   - Locust Test Scripts: Well-documented Locust test scripts that define test scenarios and user behavior.
+   - Test Execution Results: Test execution logs and reports, including performance metrics and analysis.
+   - Recommendations: Performance optimization recommendations based on test results and analysis.
+
+2. A README.md file with instructions on how to run the tests and a brief explanation of the test suite
 
 ## Bonus (optional)
 
 - Include different User credentials (one with access to all endpoints and one with access only to the `GET /books` endpoint)
+
+## Rights / Use Requirements
+
+- Do not utilize any third-party managed services/APIs (i.e., do not send data to other companies)
+
+- Written code for this project (other than imported libraries) must be original by you and not provided/subcontracted/owned by another company, contractor, or copied from any undisclosed source
+
+- Optionally, after deliver, feel free to open source the result if you want (e.g., fork this repo to your own GitHub/portfolio)
 
 ## Questions
 
