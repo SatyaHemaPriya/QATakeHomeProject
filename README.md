@@ -54,9 +54,7 @@ _We recommend using [Locust](https://github.com/locustio/locust) (an open source
 
 ## Bonus (optional)
 
-- A Dockerfile to run the tests
-- A CI/CD pipeline to run the tests
-- A report to visualize the results
+- Include different User credentials (one with access to all endpoints and one with access only to the `GET /books` endpoint)
 
 ## Questions
 
