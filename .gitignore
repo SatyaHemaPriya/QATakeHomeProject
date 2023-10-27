@@ -1,0 +1,5 @@
+.vscode/
+__pycache__/
+tests/
+.DS_Store
+Pipfile*
