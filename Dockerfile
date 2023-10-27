@@ -9,4 +9,4 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY . ./
 
-CMD exec uvicorn --port 8080 --host 0.0.0.0 main:app
+CMD exec uvicorn --port 8080 --host 0.0.0.0 main:app --workers 8
