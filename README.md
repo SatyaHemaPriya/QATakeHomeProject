@@ -1,4 +1,4 @@
-# QA Take Home Project
+# QA Take Home Project 🏠
 
 ## Description
 
