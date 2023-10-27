@@ -6,7 +6,7 @@ help:
 	
 rund:
 	@echo "\n> 🎮 [Detach] Starting ${GCP_SERVICE_NAME} via Docker Compose in detach mode...\n"
-	docker-compose up -d
+	docker-compose up -d --force-recreate --build
 
 logs:
 	@echo "\n> 📜 Showing App logs...\n"
