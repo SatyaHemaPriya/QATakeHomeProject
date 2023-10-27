@@ -1,4 +1,4 @@
-# Sample Project
+# QA Take Home Project
 
 ## Description
 
