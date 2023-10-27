@@ -6,11 +6,11 @@ Our customers have a lot of books, and they need to reliably keep track of them 
 
 We would like you to create a test suite for this API that contains the following endpoints:
 
-- `GET /books`: Returns a list of books
-- `GET /books/{id}`: Returns a book by id
-- `POST /books`: Creates a new book
-- `PUT /books/{id}`: Updates a book by id
-- `DELETE /books/{id}`: Deletes a book by id
+- `GET /api/books`: Returns a list of books
+- `GET /api/books/{id}`: Returns a book by id
+- `POST /api/books`: Creates a new book
+- `PUT /api/books/{id}`: Updates a book by id
+- `DELETE /api/books/{id}`: Deletes a book by id
 
 ## Prerequisites
 
